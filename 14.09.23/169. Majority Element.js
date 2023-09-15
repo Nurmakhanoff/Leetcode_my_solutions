@@ -38,3 +38,7 @@ var majorityElement = function(nums) {
         }
     }
 };
+
+
+// We can also sort these arrays and then pick Math.round(nums.length/2); 
+// And there is also a Boyer–Moore majority vote algorithm, that is ideal for our situation. In its simplest form, the algorithm finds a majority element, if there is one: that is, an element that occurs repeatedly for more than half of the elements of the input. A version of the algorithm that makes a second pass through the data can be used to verify that the element found in the first pass really is a majority.
